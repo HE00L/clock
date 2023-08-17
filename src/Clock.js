@@ -5,7 +5,7 @@ import "@pqina/flip/dist/flip.min.css";
 const Clock = () => {
     const tickRef = useRef(null);
     const [tickInstance, setTickInstance] = useState(null);
-    const isInitialMount = useRef(true); // 添加一个 ref 来判断是否初次加载
+    const isInitialMount = useRef(true); 
 
     useEffect(() => {
 
